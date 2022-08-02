@@ -8,7 +8,10 @@ import { CardActionArea } from "@mui/material";
 export default function AbouMe() {
   return (
     <div className="aboutMe">
-      <Card sx={{ maxWidth: 475, backgroundColor: "rgb(248, 245, 245)" }}>
+      <Card
+        className="card"
+        sx={{ maxWidth: 475, backgroundColor: "rgb(248, 245, 245)" }}
+      >
         <CardActionArea>
           <CardMedia
             component="img"
@@ -20,7 +23,7 @@ export default function AbouMe() {
             <Typography id="name" gutterBottom variant="h5" component="div">
               Beksultan/JS junior
             </Typography>
-            <Typography className="me" variant="body2" color="text.secondary">
+            <Typography className="me" variant="body2" color="black">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               sed placeat, molestias iure nihil atque error quasi ad quibusdam
               adipisci voluptatem eveniet? Maxime natus voluptatem, sequi facere

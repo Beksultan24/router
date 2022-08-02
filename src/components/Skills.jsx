@@ -16,8 +16,8 @@ export default function Skills() {
       className="box"
       sx={{
         marginLeft: "25%",
-        width: "50%",
-        backgroundColor: "rgb(222, 222, 222)",
+        width: "40%",
+
         marginTop: "60px",
         height: "100vh",
       }}
@@ -25,31 +25,51 @@ export default function Skills() {
       <h1 className="title">Skills</h1>
 
       <h4>95% HTML</h4>
-      <LinearProgress color="inherit" variant="determinate" value={html} />
+      <LinearProgress
+        className="line"
+        color="success"
+        variant="determinate"
+        value={html}
+      />
       <br />
       <br />
       <h4>90% CSS</h4>
-      <LinearProgress color="inherit" variant="determinate" value={css} />
+      <LinearProgress
+        className="line"
+        color="success"
+        variant="determinate"
+        value={css}
+      />
       <br />
       <br />
       <h4>70% English</h4>
-      <LinearProgress color="inherit" variant="determinate" value={eng} />
+      <LinearProgress className="line" variant="determinate" value={eng} />
       <br />
       <br />
       <h4>55% JavaScript</h4>
-      <LinearProgress color="inherit" variant="determinate" value={js} />
+      <LinearProgress className="line" variant="determinate" value={js} />
       <br />
       <br />
       <h4>40% GIT</h4>
-      <LinearProgress color="inherit" variant="determinate" value={git} />
+      <LinearProgress className="line" variant="determinate" value={git} />
       <br />
       <br />
       <h4>20% React</h4>
-      <LinearProgress color="inherit" variant="determinate" value={rec} />
+      <LinearProgress
+        className="line"
+        color="error"
+        variant="determinate"
+        value={rec}
+      />
       <br />
       <br />
       <h4>10% TeamWork</h4>
-      <LinearProgress color="inherit" variant="determinate" value={tw} />
+      <LinearProgress
+        className="line"
+        color="error"
+        variant="determinate"
+        value={tw}
+      />
     </Box>
   );
 }

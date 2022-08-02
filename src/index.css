@@ -14,6 +14,12 @@
   display: flex;
   justify-content: center;
 }
+.line {
+  width: 75% !important;
+  height: 7px !important;
+  margin-left: 13%;
+  border-radius: 10px;
+}
 
 .me {
   display: flex;
@@ -41,6 +47,10 @@
   margin-top: 25px;
 }
 
+.card {
+  background-color: rgba(240, 248, 255, 0.437) !important;
+}
+
 a {
   text-decoration: none;
   color: rgb(114, 114, 114);
@@ -54,18 +64,19 @@ a {
 .home {
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: 60%;
 }
 
 .image-home {
   margin-top: 100px;
+  margin-left: 13px;
   width: 230px;
   height: 220px;
   border-radius: 50%;
 }
 
 #root {
-  background-image: url("https://cdn.dribbble.com/users/707385/screenshots/5681982/media/0b6c93bf95145aed48c5f94ded2dfe79.jpg?compress=1&resize=800x600&vertical=top");
+  background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   /* background-color: rgb(255, 255, 255); */
   background-size: cover;
   height: 150vh;
@@ -73,14 +84,14 @@ a {
 
 h4 {
   color: rgb(238, 116, 16);
-  margin-left: 15px;
+  margin-left: 100px;
 }
 
 .box {
   width: 50% !important;
-  border: 1px solid black !important;
+  border: 2px solid black !important;
   border-radius: 10px;
-  background-color: rgb(250, 247, 247);
+  background-color: rgba(250, 247, 247, 0.239) !important;
 }
 
 h2 {
@@ -91,4 +102,32 @@ h2 {
 }
 e {
   background-color: rgb(222, 222, 222);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.btn {
+  height: 5%;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.355);
+  border-radius: 15px;
+  border: 1px solid rgb(88, 88, 88);
+  color: rgb(136, 136, 136);
+}
+
+/* #btn:hover {
+  color: rgb(238, 116, 16);
+} */
+
+.link {
+  color: rgb(53, 52, 52);
+}
+
+.link:hover {
+  color: rgb(238, 116, 16);
 }
